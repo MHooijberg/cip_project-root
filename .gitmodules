@@ -1,0 +1,6 @@
+[submodule "Projects/cip-001_static-site-on-s3-and-cloudfront/infrastructure"]
+	path = Projects/cip-001_static-site-on-s3-and-cloudfront/infrastructure
+	url = https://github.com/MHooijberg/cip-001_infrastructure.git
+[submodule "Projects/cip-001_static-site-on-s3-and-cloudfront/website"]
+	path = Projects/cip-001_static-site-on-s3-and-cloudfront/website
+	url = https://github.com/MHooijberg/cip-001_website.git
