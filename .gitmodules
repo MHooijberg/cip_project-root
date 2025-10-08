@@ -4,3 +4,6 @@
 [submodule "Projects/cip-001_static-site-on-s3-and-cloudfront/website"]
 	path = Projects/cip-001_static-site-on-s3-and-cloudfront/website
 	url = https://github.com/MHooijberg/cip-001_website.git
+[submodule "Projects/cip-001_static-site-on-s3-and-cloudfront/lambda_email_function"]
+	path = Projects/cip-001_static-site-on-s3-and-cloudfront/lambda_email_function
+	url = https://github.com/MHooijberg/cip-001_lambda-email-function.git
