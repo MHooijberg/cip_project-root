@@ -70,6 +70,12 @@ Each folder under `projects/` should contain at minimum a `README.md` describing
 
 **Idea:** Host a static portfolio site on S3 with CloudFront, automatic invalidation, TLS, and a CI pipeline that builds and deploys the site. Demonstrates infrastructure-as-code for static hosting and secure CDN configuration.
 
+### [CIP-002: Multi-Account AWS Organization](https://github.com/MHooijberg/cip_project-root/projects)
+
+**Folder:** `projects/cip-002_multi-account-setup/`
+
+**Idea:** Create a design for a multi-account AWS Organization, use Terraform to setup this design, regulate the design and control what member account can / can't do.
+
 <!-- ### Minecraft Server (EC2 Spot + fallback)
 
 **Folder:** `projects/minecraft-server/`
