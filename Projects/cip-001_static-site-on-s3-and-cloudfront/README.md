@@ -4,10 +4,10 @@ This project provisions a static website infrastructure on AWS using Terraform. 
 
 # TODO:
 - [ ] Updated + Add Readme's
-- [ ] Add API Gateway IaC
-- [ ] Add Lambda IaC
-- [ ] Add SES IaC
-- [ ] Update Route53 IaC
+- [x] Add API Gateway IaC
+- [x] Add Lambda IaC
+- [x] Add SES IaC
+- [x] Update Route53 IaC
 - [ ] Setup master workflow (GitHub Actions).
 - [ ] Implement AWS SAM
 - [ ] Setup infra workflows
