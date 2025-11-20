@@ -19,8 +19,9 @@ This project provisions a static website infrastructure on AWS using Terraform. 
 
 ```
 cip-001_static-site-on-s3-and-cloudfront/
-├── infrastructure/   # Terraform IaC code
-├── website/          # Astro static site source
+├── infrastructure/        # Terraform IaC code
+├── website/               # Astro static site source
+├── lambda_email_function/ # Contact API source
 └── README.md
 ```
 
@@ -32,6 +33,8 @@ cip-001_static-site-on-s3-and-cloudfront/
 - **Route53**: DNS management for custom domains.
 - **ACM**: Automated SSL certificate provisioning.
 - **Astro**: Modern static site generator for fast, optimized web pages.
+- **API Gateway**: Serve an HTTP API for processing contact forms.
+- **SES**: Send emails based on contact form. 
 
 
 

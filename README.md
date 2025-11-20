@@ -172,3 +172,16 @@ This portfolio is released under **GPL-3.0**. You are free to share and adapt th
 When using or showcasing content derived from CIP projects, please include a visible credit that links back to the original repository and the author (example):
 
 > "Based on work from the Cloud Infrastructure Portfolio (cip_project-root) by Mark Hooijberg — [https://github.com/](https://github.com/)MHooijberg/cip_project-root (GPL-3.0)"
+
+
+## 7. Todo:
+- [ ] Create Lambda function README.md:
+   - [ ] Add general structure to document
+   - [ ] Add project structure (files & directories)
+   - [ ] Add commands + Docker explanation.
+- [ ] Finish Infrastructure README.md:
+   - [ ] Add 'configuration and variables' section.
+   - [ ] Add 'Terraform Outputs' section.
+   - [ ] Add 'Trouble shooting' section.
+- [ ] Setup AWS SAM
+- [ ] Setup CI/CD in all repositories.
