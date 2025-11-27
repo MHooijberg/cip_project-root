@@ -4,16 +4,20 @@ This project provisions a static website infrastructure on AWS using Terraform. 
 
 # TODO:
 - [ ] Updated + Add Readme's
-- [x] Add API Gateway IaC
-- [x] Add Lambda IaC
-- [x] Add SES IaC
-- [x] Update Route53 IaC
-- [ ] Setup master workflow (GitHub Actions).
+- [X] Add API Gateway IaC
+- [X] Add Lambda IaC
+- [X] Add SES IaC
+- [X] Update Route53 IaC
 - [ ] Implement AWS SAM
 - [ ] Setup infra workflows
 - [ ] Setup website workflows
 - [ ] Setup lambda workflows
-- [ ] Find a way to setup organizations
+- [X] Find a way to setup organizations
+    - Done manually, chose to use two accounts + main prod account for DNS. Instead of adding them to IaC, as that is out of scope for this project.
+- [ ] Add buckets to upload the lambda function to
+- [ ] Add different environments to the IaC. 
+- [ ] Setup Open ID Connect (OIDC) as IaC
+  - [ ] Add the role to IaC
 
 ## Project Structure
 
