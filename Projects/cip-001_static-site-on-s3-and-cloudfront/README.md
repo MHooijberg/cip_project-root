@@ -14,8 +14,11 @@ This project provisions a static website infrastructure on AWS using Terraform. 
 - [ ] Setup lambda workflows
 - [X] Find a way to setup organizations
     - Done manually, chose to use two accounts + main prod account for DNS. Instead of adding them to IaC, as that is out of scope for this project.
-- [ ] Add buckets to upload the lambda function to
+- [X] Add buckets to upload the lambda function to
 - [ ] Add different environments to the IaC. 
+    - [X] Make use of modules and add the different environments.
+    - [ ] Check entire code base for proper naming, usage, files, features, etc.
+    - [ ] The trustpolicies should also be environment based, as the prod branch should only dpeloy to prod, and dev only to dev.
 - [ ] Setup Open ID Connect (OIDC) as IaC
   - [ ] Add the role to IaC
 
